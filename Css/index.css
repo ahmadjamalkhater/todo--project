@@ -10,10 +10,11 @@ h2{color: red;}
 
 body{display: flex;
     flex-direction: column;
+    
 
     }
 header{
-    background-color: rgb(21, 21, 97);
+    background-color: rgb(24, 24, 151);
     width: 100%;
 }
 header img{
@@ -21,3 +22,48 @@ header img{
     height: 35px;
     border-radius: 50%;
 }
+nav ul{
+    float: right;
+}
+nav ul li {
+    display: inline;
+    padding: 20px 20px 20px 20px; 
+}
+header h1{
+    position: absolute;
+    top:50px;
+    left: 50%;
+    margin-top: 100px;
+    }
+
+a{text-decoration: none;
+color: black;}
+
+table {
+    
+    width: 25%;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid black;
+}
+th {
+    padding: 35px 20px;
+    
+}
+
+
+footer {
+    margin-top: auto;
+    background-color: rgb(95, 35, 206);
+    font-family: 'Righteous', cursive;
+    padding: 10px;}
+
+    input, select, button {
+        padding: 12px 20px;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-top: 15px;
+    }
