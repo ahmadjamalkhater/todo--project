@@ -1,0 +1,23 @@
+
+section p {
+    border: gray solid 3px;
+    width: 400px;
+    height: 100px;
+    padding: 25px;
+}
+
+h2{color: red;}
+
+body{display: flex;
+    flex-direction: column;
+
+    }
+header{
+    background-color: rgb(21, 21, 97);
+    width: 100%;
+}
+header img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
