@@ -1,3 +1,4 @@
+
 let name =prompt("please enter your name")
 
 let gender =prompt("please enter your gender from (male/female)")
@@ -41,3 +42,39 @@ if(gender == "male" || gender == "female"){
 
          alert("welcom  "+ name ) }
       }
+
+
+
+
+
+
+
+      
+      let numberOfQuestions=[];
+      let answersArray =[];
+      while(numberOfQuestions.length-1 <= 2 ){
+
+       let answers1= prompt("Are you married please enter (yes/no)")
+        if (answers1 != ""){
+             answersArray.push(answers1)
+             console.log(answersArray)
+             numberOfQuestions++;
+        }
+        else{alert( "invalid")}
+
+        let answers2=prompt("Are you fasting? Please answer (yes/no)")
+          if( answers2 != ""){
+            answersArray.push(answers2)
+            console.log(answersArray)
+            numberOfQuestions++;}
+         
+          else{alert( "invalid")}
+
+          let answers3=prompt("Are you a Muslim please answer (yes / no)")
+          if( answers3 != ""){
+            answersArray.push(answers3)
+            console.log(answersArray)
+            numberOfQuestions++;}
+         
+          else{alert( "invalid")}
+        }
