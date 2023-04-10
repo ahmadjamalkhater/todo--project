@@ -1,43 +1,26 @@
-let name =prompt("please enter your name")
 
+let fname =prompt("please enter your name")
 let gender =prompt("please enter your gender from (male/female)")
+let age=prompt("please enter your age")
 
-if(gender == "male" || gender == "female"){
 
-    let age=prompt("please enter your age" )
-    if(age <= 0){
-    alert("inncorect your age is less than or eqal zero")}
-  
+if(age<=0){
+  alert("inncorect your age is less than or eqal zero")
+}
+let choice=confirm("do you wont to scipt the welcsming message")
+if(!choice){
 
-    let x= confirm("You are welcome to skip the message, click OK")
-
-    if(x=true){
-      if(gender ="male")
-      alert("welcom MR "+ name )}
-
-    else if (gender="female"){
-       alert("welcom MS "+ name ) 
-    }
+    if(gender=="male"){
+    alert("welom in our wepsite MR "+fname)}
     
+    else if(gender=="female"){
+    alert("welom in our wepsite MS "+fname)}
     }
-    else{if(x=true){
-        if(gender ="male")
-        age=prompt("please enter your age" )
-    if(age <= 0){
-    alert("inncorect your age is less than or eqal zero")}
+    else{
+      alert("welom in our wepsite "+fname)
+    }
   
 
-    let x= confirm("You are welcome to skip the message, click OK")
 
-        alert("welcom  "+ name )}
+
   
-      else if (gender="female"){
-        age=prompt("please enter your age" )
-        if(age <= 0){
-        alert("inncorect your age is less than or eqal zero")}
-  
-
-         let x= confirm("You are welcome to skip the message, click OK")
-
-         alert("welcom  "+ name ) }
-      }
